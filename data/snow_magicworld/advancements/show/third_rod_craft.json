@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
+        "title": {"translate":"輝く星の導く先"},
+        "description": {
+            "translate":"棒と白い星で魔法の杖を作る"
+        }
+    },
+    "parent": "snow_magicworld:show/second_rod_craft",
+    "criteria":{
+        "recipe_unlock":{
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "snow_magicworld:third_rod"
+            }
+        }
+    }
+}

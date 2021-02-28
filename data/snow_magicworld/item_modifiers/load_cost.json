@@ -1,0 +1,7 @@
+{
+    "function":"copy_nbt",
+    "source":"this",
+    "ops":[
+        {"source":"SelectedItem.tag.SnowMagicRod.Cost","target":"SnowMagicRod.FixedCost","op":"replace"}
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "function":"copy_nbt",
+    "source":{"type":"storage", "source":"snow_magicworld:temp"},
+    "ops":[
+        {"source":"FixedCost",
+            "target":"SnowMagicRod.FixedCost",
+            "op":"replace"}
+    ]
+}

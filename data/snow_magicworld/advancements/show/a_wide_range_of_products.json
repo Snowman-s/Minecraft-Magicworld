@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:blaze_rod"
+        },
+        "title": {"translate":"品揃え豊富"},
+        "description": {
+            "translate":"全てのメインスロット効果につき一つずつ杖を集める"
+        },
+        "frame": "challenge"
+    },
+    "parent": "snow_magicworld:show/first_magic",
+    "criteria":{
+        "pick":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {"nbt":"{ItemName:\"SnowMagicRod\", SnowMagicRod:{MainSlotId:\"hit_fire\"}}"},
+                    {"nbt":"{ItemName:\"SnowMagicRod\", SnowMagicRod:{MainSlotId:\"hit_explosion\"}}"},
+                    {"nbt":"{ItemName:\"SnowMagicRod\", SnowMagicRod:{MainSlotId:\"hit_pig\"}}"},
+                    {"nbt":"{ItemName:\"SnowMagicRod\", SnowMagicRod:{MainSlotId:\"hit_heal\"}}"},
+                    {"nbt":"{ItemName:\"SnowMagicRod\", SnowMagicRod:{MainSlotId:\"hit_water\"}}"},
+                    {"nbt":"{ItemName:\"SnowMagicRod\", SnowMagicRod:{MainSlotId:\"hit_lava\"}}"},
+                    {"nbt":"{ItemName:\"SnowMagicRod\", SnowMagicRod:{MainSlotId:\"worldwalker\"}}"}
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 100
+    }
+}

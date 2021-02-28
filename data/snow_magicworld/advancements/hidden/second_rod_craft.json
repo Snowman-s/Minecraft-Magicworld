@@ -1,0 +1,13 @@
+{
+    "criteria":{
+        "recipe_unlock":{
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "snow_magicworld:second_rod"
+            }
+        }
+    },
+    "rewards": {
+        "function": "snow_magicworld:craft/second_rod"
+    }
+}

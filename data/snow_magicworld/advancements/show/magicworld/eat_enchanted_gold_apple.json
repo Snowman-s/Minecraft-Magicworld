@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "title": {"translate":"幻の金林檎"},
+        "description": {"translate":"幻の金林檎は魔力の容量を増加させるという"},
+        "hidden": true,
+        "frame": "challenge"
+    },
+    "parent": "snow_magicworld:show/magicworld/root_magicworld",
+    "criteria":{
+        "eat":{
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:enchanted_golden_apple"
+                },
+                "player": {
+                    "nbt": "{recipeBook:{recipes:[\"snow_magicworld:golden_apple\"]}}"
+                }
+            }
+        }
+    }
+}

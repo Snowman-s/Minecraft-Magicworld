@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:decorated",
+    "config": {"decorator": {
+        "type": "minecraft:count",
+        "config": {
+            "count": 30
+        }},
+        "feature": {
+            "type": "minecraft:decorated",
+            "config": {"decorator":{
+                "type": "minecraft:square",
+                "config": {
+                }},
+                "feature": {
+                "type": "minecraft:decorated",
+                "config": {"decorator":{        
+                    "type": "minecraft:range",
+                    "config": {
+                        "bottom_offset": 10,
+                        "top_offset": 0,
+                        "maximum": 50
+                    }},
+                    "feature": {
+                        "type": "minecraft:ore",
+                        "config": {
+                            "state": {
+                                "Name": "minecraft:lapis_block"
+                            },
+                            "size": 5,
+                            "target":{
+                                "predicate_type": "minecraft:block_match",
+                                "block": "minecraft:stone"
+                            }
+                        }
+                    }
+                }
+            }}
+        }
+    }
+}

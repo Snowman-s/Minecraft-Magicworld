@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "title": {"translate":"魔法の苗"},
+        "description": {
+            "translate":"ラピスラズリを鑑定する"
+        }
+    },
+    "parent": "snow_magicworld:show/first_rod_craft",
+    "criteria":{
+        "pick":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{"nbt":"{ItemName:\"SnowMagicOrb\"}"}]
+            }
+        }
+    }
+}

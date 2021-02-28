@@ -1,0 +1,5 @@
+{
+    "function":"minecraft:set_name",
+    "entity":"this",
+    "name":[{"translate":"魔法の杖(Ⅰ)","color":"yellow","italic":false}]
+}

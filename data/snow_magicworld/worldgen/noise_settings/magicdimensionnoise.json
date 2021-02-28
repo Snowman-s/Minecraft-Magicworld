@@ -1,0 +1,47 @@
+{
+  "aquifers_enabled": false,
+  "noise_caves_enabled": false,
+  "grimstone_enabled": false,
+  "bedrock_floor_position": -2147483648,
+  "sea_level": -64,
+  "disable_mob_generation": false,
+  "default_block": {
+    "Name": "minecraft:glass"
+  },
+  "default_fluid": {
+    "Properties": {
+      "level": "0"
+    },
+    "Name": "minecraft:water"
+  },
+  "bedrock_roof_position": -2147483648,
+  "structures": {
+    "structures": {
+    }
+  },
+  "noise": {
+    "simplex_surface_noise": true,
+    "size_vertical": 1,
+    "density_factor": 0.0,
+    "density_offset": 0.0,
+    "top_slide": {
+      "target": -3000,
+      "size": 64,
+      "offset": -46
+    },
+    "bottom_slide": {
+      "target": -30,
+      "size": 7,
+      "offset": 1
+    },
+    "size_horizontal": 2,
+    "min_y": 0,
+    "height": 100,
+    "sampling": {
+      "xz_scale": 2.0,
+      "y_scale": 1.0,
+      "xz_factor": 80.0,
+      "y_factor": 160.0
+    }
+  }
+}

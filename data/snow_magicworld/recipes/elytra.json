@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PDP",
+        "PSP",
+        "PSP"
+    ],
+    "key": {
+        "P":{
+            "item": "minecraft:phantom_membrane"
+        },
+        "D":{
+            "item": "minecraft:diamond"
+        },
+        "S":{
+            "item": "stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:elytra"
+    }
+}

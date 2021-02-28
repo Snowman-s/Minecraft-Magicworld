@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:magma_cream"
+        },
+        "title": {"translate":"魔法の根"},
+        "description": {
+            "translate":"隠れた魔法の技術"
+        },
+        "background": "minecraft:textures/gui/advancements/backgrounds/nether.png",
+        "announce_to_chat": false,
+        "frame": "task",
+        "hidden": false,
+        "show_toast": false
+    },
+    "criteria":{
+        "q":{
+            "trigger": "minecraft:location"
+        }
+    }
+}

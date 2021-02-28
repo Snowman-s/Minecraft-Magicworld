@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "title": {"translate":"麗しの翼"},
+        "description": {"translate":"麗しの翼は...え？知ってる？"},
+        "hidden": true,
+        "frame": "challenge"
+    },
+    "parent": "snow_magicworld:show/magicworld/root_magicworld",
+    "criteria":{
+        "eat":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{
+                    "item": "minecraft:elytra"
+                }],
+                "player": {
+                    "nbt": "{recipeBook:{recipes:[\"snow_magicworld:elytra\"]}}"
+                }
+            }
+        }
+    }
+}
