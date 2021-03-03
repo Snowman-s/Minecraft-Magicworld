@@ -7,13 +7,20 @@
 ・ヒット時相手回復 hit_heal - 1
 ・ヒット時水召喚 hit_water - 2
 ・ヒット時溶岩召喚 hit_lava - 3
+・世界渡り worldwalker - 3
+・雷鳴 hit_thunder - 4
 サブオーブ
 ・コスト減少 decrease_cost
+・コスト減少Ⅱ decrease_cost2
 ・マナ速度加速 accel_mana
 ・地面着弾時効果発動 active_onground
 ・低速落下 slow_falling
 ・攻撃でパリィ attack_parry
 ・暗雲 wither
+・当たり判定増加 better_hit
+
+敵専用
+・魔女にヒットしない not_hit_witch
 
 マジックワールド
 ・常に上昇気流が吹く。高いとこから飛び降りれば乗れるんじゃ？

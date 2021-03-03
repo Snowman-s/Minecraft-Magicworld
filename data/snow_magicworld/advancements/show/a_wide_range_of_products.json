@@ -21,7 +21,8 @@
                     {"nbt":"{ItemName:\"SnowMagicRod\", SnowMagicRod:{MainSlotId:\"hit_heal\"}}"},
                     {"nbt":"{ItemName:\"SnowMagicRod\", SnowMagicRod:{MainSlotId:\"hit_water\"}}"},
                     {"nbt":"{ItemName:\"SnowMagicRod\", SnowMagicRod:{MainSlotId:\"hit_lava\"}}"},
-                    {"nbt":"{ItemName:\"SnowMagicRod\", SnowMagicRod:{MainSlotId:\"worldwalker\"}}"}
+                    {"nbt":"{ItemName:\"SnowMagicRod\", SnowMagicRod:{MainSlotId:\"worldwalker\"}}"},
+                    {"nbt":"{ItemName:\"SnowMagicRod\", SnowMagicRod:{MainSlotId:\"hit_thunder\"}}"}
                 ]
             }
         }

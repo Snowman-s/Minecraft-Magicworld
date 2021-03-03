@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:warped_fungus"
+        },
+        "title": {"translate":"青の森"},
+        "description": {"translate":"青の森バイオームを発見する"}
+    },
+    "parent": "snow_magicworld:show/magicworld/root_magicworld",
+    "criteria":{
+        "loc":{
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "snow_magicworld:blue_forest"
+                }
+            }
+        }
+    }
+}

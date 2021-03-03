@@ -1,0 +1,24 @@
+{
+    "name":"snow_magicworld:blue_forest/witch_village/start",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "snow_magicworld:blue_forest/normal_witch"
+            },
+            "weight": 100
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "snow_magicworld:blue_forest/better_witch"
+            },
+            "weight": 10
+        }
+    ]
+}

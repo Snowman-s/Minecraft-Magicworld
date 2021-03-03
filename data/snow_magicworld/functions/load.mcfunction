@@ -18,3 +18,6 @@ scoreboard objectives add Temporary dummy
 
 #scoreboard objectives add Health health
 scoreboard objectives add Health dummy
+
+#Frame
+scoreboard objectives add EntityFrame dummy

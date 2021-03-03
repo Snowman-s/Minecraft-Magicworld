@@ -8,7 +8,7 @@
         "hidden": true,
         "frame": "challenge"
     },
-    "parent": "snow_magicworld:show/magicworld/root_magicworld",
+    "parent": "snow_magicworld:show/magicworld/find_rest_area",
     "criteria":{
         "eat":{
             "trigger": "minecraft:inventory_changed",

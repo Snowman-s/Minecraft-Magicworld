@@ -23,10 +23,10 @@ execute as @a[scores={MaxMana=1..}] run function snow_magicworld:mana/main
 execute as @e[tag=snow_laser] at @s rotated as @s run function snow_magicworld:laser/laser_main
 
 #上昇気流
-execute as @a[predicate=snow_magicworld:in_magicdimension, predicate=!snow_magicworld:sneak, predicate=!snow_magicworld:wear_elytra] at @s if block ~ ~-1 ~ air if block ~ ~-2 ~ air if block ~ ~-3 ~ air run effect give @s levitation 1 4 false
-execute as @a[predicate=snow_magicworld:in_magicdimension, predicate=!snow_magicworld:wear_elytra] at @s unless block ~ ~-1 ~ air run effect give @s slow_falling 2 5
-execute as @a[predicate=snow_magicworld:in_magicdimension, predicate=!snow_magicworld:wear_elytra] at @s if block ~ ~-1 ~ air unless block ~ ~-2 ~ air run effect give @s slow_falling 2 5
-execute as @a[predicate=snow_magicworld:in_magicdimension, predicate=!snow_magicworld:wear_elytra] at @s if block ~ ~-1 ~ air if block ~ ~-2 ~ air unless block ~ ~-3 ~ air run effect give @s slow_falling 2 5
+#execute as @a[predicate=snow_magicworld:in_magicdimension, predicate=!snow_magicworld:sneak, predicate=!snow_magicworld:wear_elytra] at @s if block ~ ~-1 ~ air if block ~ ~-2 ~ air if block ~ ~-3 ~ air run effect give @s levitation 1 4 false
+#execute as @a[predicate=snow_magicworld:in_magicdimension, predicate=!snow_magicworld:wear_elytra] at @s unless block ~ ~-1 ~ air run effect give @s slow_falling 2 5
+#execute as @a[predicate=snow_magicworld:in_magicdimension, predicate=!snow_magicworld:wear_elytra] at @s if block ~ ~-1 ~ air unless block ~ ~-2 ~ air run effect give @s slow_falling 2 5
+#execute as @a[predicate=snow_magicworld:in_magicdimension, predicate=!snow_magicworld:wear_elytra] at @s if block ~ ~-1 ~ air if block ~ ~-2 ~ air unless block ~ ~-3 ~ air run effect give @s slow_falling 2 5
 
 #上に行き過ぎ
 execute as @a[predicate=snow_magicworld:in_magicdimension, predicate=snow_magicworld:magicworldtp] at @s run effect give @s jump_boost 20 255 true
@@ -34,6 +34,9 @@ execute as @a[predicate=snow_magicworld:in_magicdimension, predicate=snow_magicw
 
 #わら人形に、わら人形に、わら人形に
 execute as @e[type=item_frame,nbt={Item:{id:"minecraft:redstone"}}] at @s run function snow_magicworld:explain/check_wara
+
+#上級魔女のパーティクル
+execute as @e[tag=snow_better_witch] at @s rotated as @s run function snow_magicworld:entities/better_witch/main
 
 execute as @a run scoreboard players operation @s BSelectItemSlot = @s SelectItemSlot
 scoreboard players set @a RodUsed 0

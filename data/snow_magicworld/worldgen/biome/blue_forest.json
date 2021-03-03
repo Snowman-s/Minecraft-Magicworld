@@ -35,7 +35,7 @@
             }
         ]
     },
-    "starts": ["snow_magicworld:rest_area"],
+    "starts": ["snow_magicworld:rest_area","snow_magicworld:witch_village"],
     "spawn_costs": {},
     "carvers": {
         "air":[],
