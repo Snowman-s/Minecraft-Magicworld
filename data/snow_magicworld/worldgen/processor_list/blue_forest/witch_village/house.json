@@ -15,7 +15,7 @@
                     "output_state": {
                         "Name": "minecraft:water_cauldron",
                         "Properties": {
-                            "level":"3"
+                            "level": "3"
                         }
                     }
                 },

@@ -3,14 +3,16 @@
         "icon": {
             "item": "minecraft:warped_nylium"
         },
-        "title": {"translate":"さらなる昇華へ"},
+        "title": {
+            "translate": "さらなる昇華へ"
+        },
         "description": {
-            "translate":"世界渡りの魔法を使って魔法の世界に行く"
+            "translate": "世界渡りの魔法を使って魔法の世界に行く"
         }
     },
     "parent": "snow_magicworld:show/first_magic",
-    "criteria":{
-        "c":{
+    "criteria": {
+        "c": {
             "trigger": "minecraft:changed_dimension",
             "conditions": {
                 "to": "snow_magicworld:magicdimension"

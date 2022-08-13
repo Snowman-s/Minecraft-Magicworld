@@ -3,14 +3,16 @@
         "icon": {
             "item": "minecraft:redstone_torch"
         },
-        "title": {"translate":"魔法の幹"},
+        "title": {
+            "translate": "魔法の幹"
+        },
         "description": {
-            "translate":"魔法の杖のメインスロットにオーブをはめる"
+            "translate": "魔法の杖のメインスロットにオーブをはめる"
         }
     },
     "parent": "snow_magicworld:show/identify_orb",
-    "criteria":{
-        "i":{
+    "criteria": {
+        "i": {
             "trigger": "minecraft:impossible"
         }
     },

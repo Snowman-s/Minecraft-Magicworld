@@ -3,17 +3,23 @@
         "icon": {
             "item": "minecraft:lapis_lazuli"
         },
-        "title": {"translate":"魔法の苗"},
+        "title": {
+            "translate": "魔法の苗"
+        },
         "description": {
-            "translate":"ラピスラズリを鑑定するなどしてオーブを手に入れる"
+            "translate": "ラピスラズリを鑑定するなどしてオーブを手に入れる"
         }
     },
     "parent": "snow_magicworld:show/first_rod_craft",
-    "criteria":{
-        "pick":{
+    "criteria": {
+        "pick": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "items": [{"nbt":"{ItemName:\"SnowMagicOrb\"}"}]
+                "items": [
+                    {
+                        "nbt": "{ItemName:\"SnowMagicOrb\"}"
+                    }
+                ]
             }
         }
     }

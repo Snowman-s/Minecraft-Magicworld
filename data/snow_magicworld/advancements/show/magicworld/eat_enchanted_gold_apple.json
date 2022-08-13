@@ -3,14 +3,18 @@
         "icon": {
             "item": "minecraft:enchanted_golden_apple"
         },
-        "title": {"translate":"幻の金林檎"},
-        "description": {"translate":"幻の金林檎は魔力の容量を増加させるという"},
+        "title": {
+            "translate": "幻の金林檎"
+        },
+        "description": {
+            "translate": "幻の金林檎は魔力の容量を増加させるという"
+        },
         "hidden": true,
         "frame": "challenge"
     },
     "parent": "snow_magicworld:show/magicworld/find_rest_area",
-    "criteria":{
-        "eat":{
+    "criteria": {
+        "eat": {
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {

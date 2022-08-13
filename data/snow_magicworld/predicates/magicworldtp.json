@@ -5,7 +5,9 @@
             "condition": "minecraft:location_check",
             "predicate": {
                 "position": {
-                    "y": {"min":300.0}
+                    "y": {
+                        "min": 300
+                    }
                 }
             }
         },
@@ -13,7 +15,9 @@
             "condition": "minecraft:location_check",
             "predicate": {
                 "position": {
-                    "y": {"max":-100.0}
+                    "y": {
+                        "max": -100
+                    }
                 }
             }
         }

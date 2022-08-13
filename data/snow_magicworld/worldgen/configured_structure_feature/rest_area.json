@@ -1,7 +1,0 @@
-{
-    "type": "minecraft:village",
-    "config": {
-        "start_pool": "snow_magicworld:standard",
-        "size": 6
-    }
-}

@@ -3,14 +3,16 @@
         "icon": {
             "item": "minecraft:ender_eye"
         },
-        "title": {"translate":"碧の開眼"},
+        "title": {
+            "translate": "碧の開眼"
+        },
         "description": {
-            "translate":"棒と緑の眼で魔法の杖を作る"
+            "translate": "棒と緑の眼で魔法の杖を作る"
         }
     },
     "parent": "snow_magicworld:show/first_magic",
-    "criteria":{
-        "recipe_unlock":{
+    "criteria": {
+        "recipe_unlock": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
                 "recipe": "snow_magicworld:second_rod"

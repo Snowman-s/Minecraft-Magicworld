@@ -3,14 +3,16 @@
         "icon": {
             "item": "minecraft:soul_torch"
         },
-        "title": {"translate":"大は小を兼ねる"},
+        "title": {
+            "translate": "大は小を兼ねる"
+        },
         "description": {
-            "translate":"魔法の杖のサブスロットにオーブをはめる"
+            "translate": "魔法の杖のサブスロットにオーブをはめる"
         }
     },
     "parent": "snow_magicworld:show/second_rod_craft",
-    "criteria":{
-        "i":{
+    "criteria": {
+        "i": {
             "trigger": "minecraft:impossible"
         }
     }

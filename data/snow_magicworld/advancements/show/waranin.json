@@ -3,14 +3,16 @@
         "icon": {
             "item": "minecraft:hay_block"
         },
-        "title": {"translate":"魔法世界の案内人"},
+        "title": {
+            "translate": "魔法世界の案内人"
+        },
         "description": {
-            "translate":"わら人形に赤い液体をつけるなんて！"
+            "translate": "わら人形に赤い液体をつけるなんて！"
         }
     },
     "parent": "snow_magicworld:show/root",
-    "criteria":{
-        "i":{
+    "criteria": {
+        "i": {
             "trigger": "minecraft:impossible"
         }
     }

@@ -1,7 +1,0 @@
-{
-    "type": "minecraft:village",
-    "config": {
-        "size": 4,
-        "start_pool": "snow_magicworld:blue_forest/witch_village/start"
-    }
-}

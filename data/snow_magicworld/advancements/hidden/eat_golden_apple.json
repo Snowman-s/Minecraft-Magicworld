@@ -1,6 +1,6 @@
 {
-    "criteria":{
-        "eat":{
+    "criteria": {
+        "eat": {
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {

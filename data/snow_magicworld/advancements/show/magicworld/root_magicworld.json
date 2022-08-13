@@ -3,9 +3,11 @@
         "icon": {
             "item": "minecraft:warped_nylium"
         },
-        "title": {"translate":"魔法世界の根"},
+        "title": {
+            "translate": "魔法世界の根"
+        },
         "description": {
-            "translate":"隠れた魔法の世界"
+            "translate": "隠れた魔法の世界"
         },
         "background": "minecraft:textures/gui/advancements/backgrounds/nether.png",
         "announce_to_chat": false,
@@ -13,8 +15,8 @@
         "hidden": true,
         "show_toast": false
     },
-    "criteria":{
-        "c":{
+    "criteria": {
+        "c": {
             "trigger": "minecraft:changed_dimension",
             "conditions": {
                 "to": "snow_magicworld:magicdimension"

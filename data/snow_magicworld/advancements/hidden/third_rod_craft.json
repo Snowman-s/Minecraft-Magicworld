@@ -1,6 +1,6 @@
 {
-    "criteria":{
-        "recipe_unlock":{
+    "criteria": {
+        "recipe_unlock": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
                 "recipe": "snow_magicworld:third_rod"

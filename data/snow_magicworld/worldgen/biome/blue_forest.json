@@ -1,56 +1,56 @@
 {
-    "surface_builder": "snow_magicworld:testsurfacebulider", 
-    "depth": 0,
-    "scale": 0,
-    "temperature": 0.5,
-    "downfall": 0,
-    "player_spawn_friendly": true,
-    "precipitation": "rain",
-    "category": "forest",
-    "effects": {
-        "mood_sound": {
-          "sound": "minecraft:ambient.cave",
-          "tick_delay": 6000,
-          "block_search_extent": 8,
-          "offset": 2.0
-        },
-        "sky_color": 7907327,
-        "fog_color": 12638463,
-        "water_color": 4159204,
-        "water_fog_color": 329011
-    },
-    "spawners": {
-        "monster": [
-            {
-                "type": "minecraft:witch",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
-            },
-            {
-                "type": "minecraft:spider",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
-            }
-        ]
-    },
-    "starts": ["snow_magicworld:rest_area","snow_magicworld:witch_village"],
-    "spawn_costs": {},
-    "carvers": {
-        "air":[],
-        "liquid":[]
-    },
-    "features": [
-        [],
-        ["snow_magicworld:blue_forest/lapis_tree"],
-        [],
-        [],
-        [],
-        [],
-        ["minecraft:ore_lapis", "snow_magicworld:blue_forest/lapis"],
-        [],
-        ["warped_forest_vegetation"],
-        []
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "precipitation": "rain",
+  "effects": {
+    "sky_color": 7907327,
+    "fog_color": 12638463,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "spawners": {
+    "creature": [
+      {
+        "type": "minecraft:chicken",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:witch",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:spider",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      }
     ]
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_lapis"
+    ],
+    [
+      "snow_magicworld:blue_forest/lapis"
+    ],
+    [
+      "minecraft:warped_forest_vegetation",
+      "snow_magicworld:blue_forest/lapis_tree"
+    ],
+    []
+  ]
 }
