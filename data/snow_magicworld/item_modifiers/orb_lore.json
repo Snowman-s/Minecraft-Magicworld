@@ -1,6 +1,13 @@
 {
-    "function":"set_lore",
-    "entity":"this",
-    "replace":"false",
-    "lore":[{"nbt":"OrbName","storage": "snow_magicworld:temp","color":"gray","italic":"false"}]
+  "function": "set_lore",
+  "entity": "this",
+  "replace": false,
+  "lore": [
+    {
+      "nbt": "OrbName",
+      "storage": "snow_magicworld:temp",
+      "color": "gray",
+      "italic": false
+    }
+  ]
 }

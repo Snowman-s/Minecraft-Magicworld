@@ -1,4 +1,4 @@
-execute store result score #Cost Temporary run data get entity @s SelectedItem.tag.SnowMagicRod.FixedCost 
+execute store result score #Cost Temporary run data get entity @s SelectedItem.tag.SnowMagicRod.FixedCost
 
 execute unless score #Cost Temporary <= @s Mana run scoreboard players set #StandBy Temporary 0
 execute if score #Cost Temporary <= @s Mana run scoreboard players set #StandBy Temporary 1

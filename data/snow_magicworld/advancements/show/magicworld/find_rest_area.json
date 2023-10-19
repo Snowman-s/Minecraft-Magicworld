@@ -1,22 +1,22 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:deepslate"
-        },
-        "title": {
-            "translate": "休憩所跡地"
-        },
-        "description": {
-            "translate": "休憩所跡地のチェストを開く"
-        }
+  "display": {
+    "icon": {
+      "item": "minecraft:deepslate"
     },
-    "parent": "snow_magicworld:show/magicworld/root_magicworld",
-    "criteria": {
-        "eat": {
-            "trigger": "minecraft:player_generates_container_loot",
-            "conditions": {
-                "loot_table": "snow_magicworld:rest_area_chest"
-            }
-        }
+    "title": {
+      "translate": "休憩所跡地"
+    },
+    "description": {
+      "translate": "休憩所跡地のチェストを開く"
     }
+  },
+  "parent": "snow_magicworld:show/magicworld/root_magicworld",
+  "criteria": {
+    "eat": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "snow_magicworld:rest_area_chest"
+      }
+    }
+  }
 }

@@ -1,20 +1,20 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:carrot_on_a_stick"
-        },
-        "title": {
-            "translate": "魔法の枝"
-        },
-        "description": {
-            "translate": "初めて魔法を使う"
-        },
-        "frame": "goal"
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick"
     },
-    "parent": "snow_magicworld:show/orb_connect",
-    "criteria": {
-        "i": {
-            "trigger": "minecraft:impossible"
-        }
+    "title": {
+      "translate": "魔法の枝"
+    },
+    "description": {
+      "translate": "初めて魔法を使う"
+    },
+    "frame": "goal"
+  },
+  "parent": "snow_magicworld:show/orb_connect",
+  "criteria": {
+    "i": {
+      "trigger": "minecraft:impossible"
     }
+  }
 }

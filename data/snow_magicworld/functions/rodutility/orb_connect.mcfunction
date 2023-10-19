@@ -11,10 +11,10 @@ execute if data entity @s {SelectedItem:{tag:{SnowMagicRod:{MainSlotId:""}}}} ru
 execute if score #SubSlotNum Temporary matches 1.. unless data entity @s[tag=!OrbConnectedMain] SelectedItem.tag.SnowMagicRod.SubSlotIDs[0] run tag @s add OrbConnected1
 execute if score #SubSlotNum Temporary matches 1.. unless data entity @s[tag=!OrbConnectedMain] SelectedItem.tag.SnowMagicRod.SubSlotIDs[0] run item modify entity @s weapon.mainhand snow_magicworld:copy_orb/sub
 
-execute if score #SubSlotNum Temporary matches 2.. unless data entity @s[tag=!OrbConnectedMain, tag=!OrbConnected1] SelectedItem.tag.SnowMagicRod.SubSlotIDs[1] run tag @s add OrbConnected2
-execute if score #SubSlotNum Temporary matches 2.. unless data entity @s[tag=!OrbConnectedMain, tag=!OrbConnected1] SelectedItem.tag.SnowMagicRod.SubSlotIDs[1] run item modify entity @s weapon.mainhand snow_magicworld:copy_orb/sub
+execute if score #SubSlotNum Temporary matches 2.. unless data entity @s[tag=!OrbConnectedMain,tag=!OrbConnected1] SelectedItem.tag.SnowMagicRod.SubSlotIDs[1] run tag @s add OrbConnected2
+execute if score #SubSlotNum Temporary matches 2.. unless data entity @s[tag=!OrbConnectedMain,tag=!OrbConnected1] SelectedItem.tag.SnowMagicRod.SubSlotIDs[1] run item modify entity @s weapon.mainhand snow_magicworld:copy_orb/sub
 
-execute unless entity @s[tag=!OrbConnectedMain, tag=!OrbConnected1, tag=!OrbConnected2] run item modify entity @s weapon.offhand snow_magicworld:minus_count
+execute unless entity @s[tag=!OrbConnectedMain,tag=!OrbConnected1,tag=!OrbConnected2] run item modify entity @s weapon.offhand snow_magicworld:minus_count
 
 #このスニーク中には既にオーブはくっつけられていて、さらにオーブをくっつけてはならない
 tag @s add OrbConnect

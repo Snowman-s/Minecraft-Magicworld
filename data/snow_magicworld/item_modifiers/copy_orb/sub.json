@@ -1,8 +1,16 @@
 {
-    "function":"copy_nbt",
-    "source":"this",
-    "ops":[
-        {"source":"Inventory[{Slot:-106b}].tag.SubEffectId","target":"SnowMagicRod.SubSlotIDs","op":"append"},
-        {"source":"Inventory[{Slot:-106b}].tag.SubEffect","target":"SnowMagicRod.SubSlots","op":"append"}
-    ]
+  "function": "copy_nbt",
+  "source": "this",
+  "ops": [
+    {
+      "source": "Inventory[{Slot:-106b}].tag.SubEffectId",
+      "target": "SnowMagicRod.SubSlotIDs",
+      "op": "append"
+    },
+    {
+      "source": "Inventory[{Slot:-106b}].tag.SubEffect",
+      "target": "SnowMagicRod.SubSlots",
+      "op": "append"
+    }
+  ]
 }

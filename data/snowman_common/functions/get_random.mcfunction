@@ -1,4 +1,4 @@
-scoreboard players set @s Random 0 
+scoreboard players set @s Random 0
 
 loot spawn ~ ~ ~ loot snowman_common:random_loot
 

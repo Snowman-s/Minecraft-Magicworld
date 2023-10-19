@@ -1,40 +1,40 @@
 {
-    "name": "snow_magicworld:blue_forest/witch_village/start",
-    "fallback": "minecraft:empty",
-    "elements": [
-        {
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty",
-                "location": "snow_magicworld:blue_forest/corridor1"
-            },
-            "weight": 100
-        },
-        {
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty",
-                "location": "snow_magicworld:blue_forest/corridor2"
-            },
-            "weight": 80
-        },
-        {
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty",
-                "location": "snow_magicworld:blue_forest/corridor_with_animal"
-            },
-            "weight": 50
-        },
-        {
-            "element": {
-                "element_type": "minecraft:empty_pool_element",
-                "projection": "rigid"
-            },
-            "weight": 70
-        }
-    ]
+  "name": "snow_magicworld:blue_forest/witch_village/start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty",
+        "location": "snow_magicworld:blue_forest/corridor1"
+      },
+      "weight": 100
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty",
+        "location": "snow_magicworld:blue_forest/corridor2"
+      },
+      "weight": 80
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty",
+        "location": "snow_magicworld:blue_forest/corridor_with_animal"
+      },
+      "weight": 50
+    },
+    {
+      "element": {
+        "element_type": "minecraft:empty_pool_element",
+        "projection": "rigid"
+      },
+      "weight": 70
+    }
+  ]
 }

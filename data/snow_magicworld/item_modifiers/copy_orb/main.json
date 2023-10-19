@@ -1,9 +1,21 @@
 {
-    "function":"copy_nbt",
-    "source":"this",
-    "ops":[
-        {"source":"Inventory[{Slot:-106b}].tag.MainEffectId","target":"SnowMagicRod.MainSlotId","op":"replace"},
-        {"source":"Inventory[{Slot:-106b}].tag.MainEffect","target":"SnowMagicRod.MainSlot","op":"replace"},
-        {"source":"Inventory[{Slot:-106b}].tag.Cost","target":"SnowMagicRod.Cost","op":"replace"}
-    ]
+  "function": "copy_nbt",
+  "source": "this",
+  "ops": [
+    {
+      "source": "Inventory[{Slot:-106b}].tag.MainEffectId",
+      "target": "SnowMagicRod.MainSlotId",
+      "op": "replace"
+    },
+    {
+      "source": "Inventory[{Slot:-106b}].tag.MainEffect",
+      "target": "SnowMagicRod.MainSlot",
+      "op": "replace"
+    },
+    {
+      "source": "Inventory[{Slot:-106b}].tag.Cost",
+      "target": "SnowMagicRod.Cost",
+      "op": "replace"
+    }
+  ]
 }

@@ -1,22 +1,22 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:warped_planks"
-        },
-        "title": {
-            "translate": "魔女の村"
-        },
-        "description": {
-            "translate": "魔女の村にあるチェストを開く"
-        }
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_planks"
     },
-    "parent": "snow_magicworld:show/magicworld/blue_forest/enter",
-    "criteria": {
-        "eat": {
-            "trigger": "minecraft:player_generates_container_loot",
-            "conditions": {
-                "loot_table": "snow_magicworld:blue_forest/witch_village"
-            }
-        }
+    "title": {
+      "translate": "魔女の村"
+    },
+    "description": {
+      "translate": "魔女の村にあるチェストを開く"
     }
+  },
+  "parent": "snow_magicworld:show/magicworld/blue_forest/enter",
+  "criteria": {
+    "eat": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "snow_magicworld:blue_forest/witch_village"
+      }
+    }
+  }
 }

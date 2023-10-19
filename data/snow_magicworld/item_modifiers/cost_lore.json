@@ -1,6 +1,20 @@
 {
-    "function":"set_lore",
-    "entity":"this",
-    "replace":"false",
-    "lore":[[{"translate":"Cost:","color":"gray","italic":"false"},{"nbt":"FixedCost", "storage": "snow_magicworld:temp", "color":"yellow","italic":"false"}]]
+  "function": "set_lore",
+  "entity": "this",
+  "replace": false,
+  "lore": [
+    [
+      {
+        "translate": "Cost:",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "nbt": "FixedCost",
+        "storage": "snow_magicworld:temp",
+        "color": "yellow",
+        "italic": false
+      }
+    ]
+  ]
 }

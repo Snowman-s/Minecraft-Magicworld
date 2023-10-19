@@ -1,6 +1,6 @@
 {
-    "values": [
-      "snowman_common:main",
-      "snow_magicworld:main"
-    ]
-  }
+  "values": [
+    "snowman_common:main",
+    "snow_magicworld:main"
+  ]
+}

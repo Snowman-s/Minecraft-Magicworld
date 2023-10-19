@@ -1,15 +1,15 @@
 {
-    "name": "snow_magicworld:standard",
-    "fallback": "minecraft:empty",
-    "elements": [
-        {
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "snow_magicworld:rest_area",
-                "location": "snow_magicworld:rest_area"
-            },
-            "weight": 5
-        }
-    ]
+  "name": "snow_magicworld:standard",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "snow_magicworld:rest_area",
+        "location": "snow_magicworld:rest_area"
+      },
+      "weight": 5
+    }
+  ]
 }

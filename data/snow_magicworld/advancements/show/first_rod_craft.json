@@ -1,22 +1,22 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:stick"
-        },
-        "title": {
-            "translate": "魔法の芽生え"
-        },
-        "description": {
-            "translate": "棒と羽根で魔法の杖を作る"
-        }
+  "display": {
+    "icon": {
+      "item": "minecraft:stick"
     },
-    "parent": "snow_magicworld:show/root",
-    "criteria": {
-        "recipe_unlock": {
-            "trigger": "minecraft:recipe_unlocked",
-            "conditions": {
-                "recipe": "snow_magicworld:first_rod"
-            }
-        }
+    "title": {
+      "translate": "魔法の芽生え"
+    },
+    "description": {
+      "translate": "棒と羽根で魔法の杖を作る"
     }
+  },
+  "parent": "snow_magicworld:show/root",
+  "criteria": {
+    "recipe_unlock": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "snow_magicworld:first_rod"
+      }
+    }
+  }
 }

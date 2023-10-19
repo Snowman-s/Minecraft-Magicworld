@@ -20,6 +20,9 @@
               "valid_base_block": {
                 "Name": "minecraft:warped_nylium"
               },
+              "replaceable_blocks": {
+                "type": "minecraft:true"
+              },
               "planted": true
             }
           },

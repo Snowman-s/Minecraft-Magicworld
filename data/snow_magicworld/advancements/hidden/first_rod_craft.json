@@ -1,13 +1,13 @@
 {
-    "criteria": {
-        "recipe_unlock": {
-            "trigger": "minecraft:recipe_unlocked",
-            "conditions": {
-                "recipe": "snow_magicworld:first_rod"
-            }
-        }
-    },
-    "rewards": {
-        "function": "snow_magicworld:craft/first_rod"
+  "criteria": {
+    "recipe_unlock": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "snow_magicworld:first_rod"
+      }
     }
+  },
+  "rewards": {
+    "function": "snow_magicworld:craft/first_rod"
+  }
 }

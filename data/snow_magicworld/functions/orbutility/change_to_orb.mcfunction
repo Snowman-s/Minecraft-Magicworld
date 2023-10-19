@@ -6,7 +6,7 @@ execute if data entity @s Item{id:"minecraft:lapis_lazuli"} run loot spawn ~ ~ ~
 execute if data entity @s Item{id:"minecraft:diamond"} run loot spawn ~ ~ ~ loot snow_magicworld:diamond_mainslot_orb
 execute if data entity @s Item{id:"minecraft:diamond"} run loot spawn ~ ~ ~ loot snow_magicworld:diamond_subslot_orb
 
-summon item ~ ~ ~ {Tags:["orb_prepare"],Item:{id:"minecraft:lapis_lazuli", Count:1b, tag:{display:{Name:'{"translate":"ホゲのオーブ","italic": false,"color": "aqua"}'}, ItemName:"SnowMagicOrb", MainEffect:"", MainEffectId:"", SubEffect:"", SubEffectId:""}}}
+summon item ~ ~ ~ {Tags:["orb_prepare"], Item:{id:"minecraft:lapis_lazuli", Count:1b, tag:{display:{Name:'{"translate":"ホゲのオーブ","italic": false,"color": "aqua"}'}, ItemName:"SnowMagicOrb", MainEffect:"", MainEffectId:"", SubEffect:"", SubEffectId:""}}}
 
 data modify entity @e[tag=orb_prepare,limit=1] Item.id set from entity @s Item.id
 

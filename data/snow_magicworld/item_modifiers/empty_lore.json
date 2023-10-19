@@ -1,6 +1,12 @@
 {
-    "function":"set_lore",
-    "entity":"this",
-    "replace":"false",
-    "lore":[{"text":"[]","color":"gray","italic":"false"}]
+  "function": "set_lore",
+  "entity": "this",
+  "replace": false,
+  "lore": [
+    {
+      "text": "[]",
+      "color": "gray",
+      "italic": false
+    }
+  ]
 }

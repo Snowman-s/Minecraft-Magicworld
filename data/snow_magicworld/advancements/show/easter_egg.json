@@ -1,26 +1,26 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:egg"
-        },
-        "title": {
-            "translate": "隠された卵"
-        },
-        "description": {
-            "translate": "イースターエッグ！"
-        },
-        "hidden": true,
-        "frame": "challenge"
+  "display": {
+    "icon": {
+      "item": "minecraft:egg"
     },
-    "parent": "snow_magicworld:show/first_magic",
-    "criteria": {
-        "i": {
-            "trigger": "minecraft:impossible"
-        }
+    "title": {
+      "translate": "隠された卵"
     },
-    "rewards": {
-        "loot": [
-            "snow_magicworld:easter_egg"
-        ]
+    "description": {
+      "translate": "イースターエッグ！"
+    },
+    "hidden": true,
+    "frame": "challenge"
+  },
+  "parent": "snow_magicworld:show/first_magic",
+  "criteria": {
+    "i": {
+      "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "loot": [
+      "snow_magicworld:easter_egg"
+    ]
+  }
 }

@@ -1,42 +1,42 @@
 {
-    "name": "snow_magicworld:blue_forest/witch_village/start",
-    "fallback": "minecraft:empty",
-    "elements": [
-        {
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "snow_magicworld:blue_forest/witch_village/house",
-                "location": "snow_magicworld:blue_forest/house1"
-            },
-            "weight": 100
-        },
-        {
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "snow_magicworld:blue_forest/witch_village/house",
-                "location": "snow_magicworld:blue_forest/lookout"
-            },
-            "weight": 60
-        },
-        {
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "snow_magicworld:blue_forest/witch_village/monument",
-                "location": "snow_magicworld:blue_forest/monument"
-            },
-            "weight": 30
-        },
-        {
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "snow_magicworld:blue_forest/witch_village/house",
-                "location": "snow_magicworld:blue_forest/house2"
-            },
-            "weight": 50
-        }
-    ]
+  "name": "snow_magicworld:blue_forest/witch_village/start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "snow_magicworld:blue_forest/witch_village/house",
+        "location": "snow_magicworld:blue_forest/house1"
+      },
+      "weight": 100
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "snow_magicworld:blue_forest/witch_village/house",
+        "location": "snow_magicworld:blue_forest/lookout"
+      },
+      "weight": 60
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "snow_magicworld:blue_forest/witch_village/monument",
+        "location": "snow_magicworld:blue_forest/monument"
+      },
+      "weight": 30
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "snow_magicworld:blue_forest/witch_village/house",
+        "location": "snow_magicworld:blue_forest/house2"
+      },
+      "weight": 50
+    }
+  ]
 }

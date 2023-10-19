@@ -1,7 +1,7 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-        "nbt": "{Inventory:[{Slot:-106b,tag:{ItemName:\"SnowMagicOrb\"}}]}"
-    }
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{Inventory:[{Slot:-106b,tag:{ItemName:\"SnowMagicOrb\"}}]}"
+  }
 }

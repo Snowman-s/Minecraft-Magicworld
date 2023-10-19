@@ -1,6 +1,6 @@
 {
-    "values": [
-      "snowman_common:load",
-      "snow_magicworld:load"
-    ]
+  "values": [
+    "snowman_common:load",
+    "snow_magicworld:load"
+  ]
 }

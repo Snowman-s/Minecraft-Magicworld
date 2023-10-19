@@ -1,7 +1,7 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-        "nbt": "{SelectedItem:{tag:{ItemName:\"SnowMagicRod\"}}}"
-    }
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{SelectedItem:{tag:{ItemName:\"SnowMagicRod\"}}}"
+  }
 }
