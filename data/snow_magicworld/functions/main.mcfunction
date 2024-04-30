@@ -16,7 +16,7 @@ execute as @a[predicate=snow_magicworld:has_rod,nbt={SelectedItem:{tag:{SnowMagi
 execute as @e[type=item,nbt={Item:{count:1, id:"minecraft:egg"}}] unless data entity @s Item.components."minecraft:custom_data"."snow_magicworld:egg_diamond" at @s if block ~ ~ ~ lectern if data block ~ ~ ~ Book run function snow_magicworld:easter_egg
 execute as @e[type=item,nbt={Item:{count:1}},predicate=snow_magicworld:to_orb_item] unless data entity @s Item.components."minecraft:custom_data"."snow_magicworld:orb" unless data entity @s Item.components."minecraft:custom_data"."snow_magicworld:orb_main" unless data entity @s Item.components."minecraft:custom_data"."snow_magicworld:orb_sub" at @s if block ~ ~ ~ lectern if data block ~ ~ ~ Book run function snow_magicworld:orbutility/change_to_orb
 
-execute as @a[scores={RodUsed=1..},nbt={SelectedItem:{tag:{ItemName:"SnowMagicRod"}}}] unless data entity @s {SelectedItem:{tag:{SnowMagicRod:{MainSlot:""}}}} at @s rotated as @s run function snow_magicworld:laser/check_mana
+execute as @a[scores={RodUsed=1..}] if items entity @s weapon.mainhand *[minecraft:custom_data~{"snow_magicworld:magic_rod":{}}] at @s rotated as @s run function snow_magicworld:laser/check_mana
 
 execute as @a[scores={MaxMana=1..}] run function snow_magicworld:mana/main
 
