@@ -1,15 +1,15 @@
 {
-  "function": "copy_nbt",
+  "function": "copy_custom_data",
   "source": "this",
   "ops": [
     {
-      "source": "Inventory[{Slot:-106b}].tag.SubEffectId",
-      "target": "SnowMagicRod.SubSlotIDs",
+      "source": "Inventory[{Slot:-106b}].components.\"minecraft:custom_data\".\"snow_magicworld:orb\".sub_effect_id",
+      "target": "\"snow_magicworld:magic_rod\".sub_slot_ids",
       "op": "append"
     },
     {
-      "source": "Inventory[{Slot:-106b}].tag.SubEffect",
-      "target": "SnowMagicRod.SubSlots",
+      "source": "Inventory[{Slot:-106b}].components.\"minecraft:lore\"[4]",
+      "target": "\"snow_magicworld:magic_rod\".sub_slots",
       "op": "append"
     }
   ]

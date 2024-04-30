@@ -1,20 +1,20 @@
 {
-  "function": "copy_nbt",
+  "function": "copy_custom_data",
   "source": "this",
   "ops": [
     {
-      "source": "Inventory[{Slot:-106b}].tag.MainEffectId",
-      "target": "SnowMagicRod.MainSlotId",
+      "source": "Inventory[{Slot:-106b}].components.\"minecraft:custom_data\".\"snow_magicworld:orb\".main_effect_id",
+      "target": "\"snow_magicworld:magic_rod\".main_slot_id",
       "op": "replace"
     },
     {
-      "source": "Inventory[{Slot:-106b}].tag.MainEffect",
-      "target": "SnowMagicRod.MainSlot",
+      "source": "Inventory[{Slot:-106b}].components.\"minecraft:lore\"[2]",
+      "target": "\"snow_magicworld:magic_rod\".main_slot",
       "op": "replace"
     },
     {
-      "source": "Inventory[{Slot:-106b}].tag.Cost",
-      "target": "SnowMagicRod.Cost",
+      "source": "Inventory[{Slot:-106b}].components.\"minecraft:custom_data\".\"snow_magicworld:orb\".cost",
+      "target": "\"snow_magicworld:magic_rod\".cost",
       "op": "replace"
     }
   ]
