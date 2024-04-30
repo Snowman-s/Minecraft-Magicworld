@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:carrot_on_a_stick"
+      "id": "minecraft:carrot_on_a_stick"
     },
     "title": {
       "translate": "魔法の枝"

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:warped_planks"
+      "id": "minecraft:warped_planks"
     },
     "title": {
       "translate": "魔女の村"
