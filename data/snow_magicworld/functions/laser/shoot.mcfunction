@@ -1,6 +1,6 @@
 advancement grant @s only snow_magicworld:show/first_magic
 
-execute if entity @s[nbt={SelectedItem:{tag:{SnowMagicRod:{SubSlotIDs:["attack_parry"]}}}}] run effect give @s resistance 1 255
+execute if items entity @s weapon.mainhand *[minecraft:custom_data~{"snow_magicworld:magic_rod":{sub_slot_ids:["attack_parry"]}}] run effect give @s resistance 1 255
 
 execute positioned ~ ~1.3 ~ positioned ^ ^ ^ run summon armor_stand ~ ~ ~ {Tags:["laser_prepare", "snow_laser"], Small:1b, Silent:1b, Invisible:1b}
 data modify entity @e[tag=laser_prepare,limit=1] Rotation set from entity @p Rotation
