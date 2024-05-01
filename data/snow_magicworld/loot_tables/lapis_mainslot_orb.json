@@ -7,72 +7,222 @@
         {
           "type": "item",
           "name": "minecraft:lapis_lazuli",
-          "weight": 100,
-          "quality": 0,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{display:{Lore:['[{\"translate\":\" Cost:\",\"color\":\"gray\",\"italic\": false},{\"text\":\"1\",\"color\":\"yellow\"}]','{\"translate\":\" ヒット時炎\",\"color\":\"gray\",\"italic\": false}']},ItemName:\"SnowMagicOrbMain\", Cost:1, MainEffect:\"ヒット時炎\", MainEffectId:\"hit_fire\"}"
+              "function": "set_custom_data",
+              "tag": {
+                "snow_magicworld:orb_main": {
+                  "cost": 1,
+                  "id": "hit_fire"
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": " Cost:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "1",
+                    "color": "yellow"
+                  }
+                ],
+                {
+                  "translate": " ヒット時炎",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
             }
           ]
         },
         {
           "type": "item",
           "name": "minecraft:lapis_lazuli",
-          "weight": 100,
-          "quality": 0,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{display:{Lore:['[{\"translate\":\" Cost:\",\"color\":\"gray\",\"italic\": false},{\"text\":\"2\",\"color\":\"yellow\"}]','{\"translate\":\" ヒット時爆発\",\"color\":\"gray\",\"italic\": false}']},ItemName:\"SnowMagicOrbMain\", Cost:2, MainEffect:\"ヒット時爆発\", MainEffectId:\"hit_explosion\"}"
+              "function": "set_custom_data",
+              "tag": {
+                "snow_magicworld:orb_main": {
+                  "cost": 2,
+                  "id": "hit_explosion"
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": " Cost:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "2",
+                    "color": "yellow"
+                  }
+                ],
+                {
+                  "translate": " ヒット時爆発",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
             }
           ]
         },
         {
           "type": "item",
           "name": "minecraft:lapis_lazuli",
-          "weight": 100,
-          "quality": 0,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{display:{Lore:['[{\"translate\":\" Cost:\",\"color\":\"gray\",\"italic\": false},{\"text\":\"3\",\"color\":\"yellow\"}]','{\"translate\":\" ヒット時確率で豚化\",\"color\":\"gray\",\"italic\": false}']},ItemName:\"SnowMagicOrbMain\", Cost:3, MainEffect:\"ヒット時確率で豚化\", MainEffectId:\"hit_pig\"}"
+              "function": "set_custom_data",
+              "tag": {
+                "snow_magicworld:orb_main": {
+                  "cost": 3,
+                  "id": "hit_pig"
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": " Cost:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "3",
+                    "color": "yellow"
+                  }
+                ],
+                {
+                  "translate": " ヒット時確率で豚化",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
             }
           ]
         },
         {
           "type": "item",
           "name": "minecraft:lapis_lazuli",
-          "weight": 100,
-          "quality": 0,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{display:{Lore:['[{\"translate\":\" Cost:\",\"color\":\"gray\",\"italic\": false},{\"text\":\"1\",\"color\":\"yellow\"}]','{\"translate\":\" ヒット時相手回復\",\"color\":\"gray\",\"italic\": false}']},ItemName:\"SnowMagicOrbMain\", Cost:1, MainEffect:\"ヒット時相手回復\", MainEffectId:\"hit_heal\"}"
+              "function": "set_custom_data",
+              "tag": {
+                "snow_magicworld:orb_main": {
+                  "cost": 1,
+                  "id": "hit_heal"
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": " Cost:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "1",
+                    "color": "yellow"
+                  }
+                ],
+                {
+                  "translate": " ヒット時相手回復",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
             }
           ]
         },
         {
           "type": "item",
           "name": "minecraft:lapis_lazuli",
-          "weight": 100,
-          "quality": 0,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{display:{Lore:['[{\"translate\":\" Cost:\",\"color\":\"gray\",\"italic\": false},{\"text\":\"2\",\"color\":\"yellow\"}]','{\"translate\":\" ヒット時水召喚\",\"color\":\"gray\",\"italic\": false}']},ItemName:\"SnowMagicOrbMain\", Cost:2, MainEffect:\"ヒット時水召喚\", MainEffectId:\"hit_water\"}"
+              "function": "set_custom_data",
+              "tag": {
+                "snow_magicworld:orb_main": {
+                  "cost": 2,
+                  "id": "hit_water"
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": " Cost:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "2",
+                    "color": "yellow"
+                  }
+                ],
+                {
+                  "translate": " ヒット時水召喚",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
             }
           ]
         },
         {
           "type": "item",
           "name": "minecraft:lapis_lazuli",
-          "weight": 100,
-          "quality": 0,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{display:{Lore:['[{\"translate\":\" Cost:\",\"color\":\"gray\",\"italic\": false},{\"text\":\"3\",\"color\":\"yellow\"}]','{\"translate\":\" ヒット時溶岩召喚\",\"color\":\"gray\",\"italic\": false}']},ItemName:\"SnowMagicOrbMain\", Cost:3, MainEffect:\"ヒット時溶岩召喚\", MainEffectId:\"hit_lava\"}"
+              "function": "set_custom_data",
+              "tag": {
+                "snow_magicworld:orb_main": {
+                  "cost": 3,
+                  "id": "hit_lava"
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": " Cost:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "3",
+                    "color": "yellow"
+                  }
+                ],
+                {
+                  "translate": " ヒット時溶岩召喚",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
             }
           ]
         }

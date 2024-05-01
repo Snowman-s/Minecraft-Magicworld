@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:stick"
+      "id": "minecraft:stick"
     },
     "title": {
       "translate": "魔法の芽生え"
@@ -13,9 +13,9 @@
   "parent": "snow_magicworld:show/root",
   "criteria": {
     "recipe_unlock": {
-      "trigger": "minecraft:recipe_unlocked",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe": "snow_magicworld:first_rod"
+        "recipe_id": "snow_magicworld:first_rod"
       }
     }
   }

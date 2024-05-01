@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:warped_planks"
+      "id": "minecraft:warped_planks"
     },
     "title": {
       "translate": "魔女の村"
@@ -13,9 +13,13 @@
   "parent": "snow_magicworld:show/magicworld/blue_forest/enter",
   "criteria": {
     "eat": {
-      "trigger": "minecraft:player_generates_container_loot",
+      "trigger": "minecraft:location",
       "conditions": {
-        "loot_table": "snow_magicworld:blue_forest/witch_village"
+        "player": {
+          "location": {
+            "structures": "snow_magicworld:witch_village"
+          }
+        }
       }
     }
   }

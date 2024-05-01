@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:enchanted_golden_apple"
+      "id": "minecraft:enchanted_golden_apple"
     },
     "title": {
       "translate": "幻の金林檎"
@@ -15,14 +15,9 @@
   "parent": "snow_magicworld:show/magicworld/find_rest_area",
   "criteria": {
     "eat": {
-      "trigger": "minecraft:consume_item",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "item": {
-          "item": "minecraft:enchanted_golden_apple"
-        },
-        "player": {
-          "nbt": "{recipeBook:{recipes:[\"snow_magicworld:golden_apple\"]}}"
-        }
+        "recipe_id": "snow_magicworld:golden_apple"
       }
     }
   }

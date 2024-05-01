@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:elytra"
+      "id": "minecraft:elytra"
     },
     "title": {
       "translate": "麗しの翼"
@@ -15,16 +15,9 @@
   "parent": "snow_magicworld:show/magicworld/find_rest_area",
   "criteria": {
     "eat": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "items": [
-          {
-            "item": "minecraft:elytra"
-          }
-        ],
-        "player": {
-          "nbt": "{recipeBook:{recipes:[\"snow_magicworld:elytra\"]}}"
-        }
+        "recipe_id": "snow_magicworld:elytra"
       }
     }
   }

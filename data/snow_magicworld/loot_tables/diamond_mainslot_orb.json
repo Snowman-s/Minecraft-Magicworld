@@ -11,8 +11,35 @@
           "quality": 0,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{display:{Lore:['[{\"translate\":\" Cost:\",\"color\":\"gray\",\"italic\": false},{\"text\":\"3\",\"color\":\"yellow\"}]','{\"translate\":\" 世界渡り(攻撃しない)\",\"color\":\"gray\",\"italic\": false}']},ItemName:\"SnowMagicOrbMain\", Cost:3, MainEffect:\"世界渡り(攻撃しない)\", MainEffectId:\"worldwalker\"}"
+              "function": "set_custom_data",
+              "tag": {
+                "snow_magicworld:orb_main": {
+                  "cost": 3,
+                  "id": "worldwalker"
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                [
+                  {
+                    "translate": " Cost:",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "3",
+                    "color": "yellow"
+                  }
+                ],
+                {
+                  "translate": " 世界渡り(攻撃しない)",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
             }
           ]
         }

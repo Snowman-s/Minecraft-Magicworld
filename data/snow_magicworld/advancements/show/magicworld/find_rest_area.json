@@ -1,21 +1,25 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:deepslate"
+      "id": "minecraft:deepslate"
     },
     "title": {
       "translate": "休憩所跡地"
     },
     "description": {
-      "translate": "休憩所跡地のチェストを開く"
+      "translate": "休憩所跡地に到達する"
     }
   },
   "parent": "snow_magicworld:show/magicworld/root_magicworld",
   "criteria": {
     "eat": {
-      "trigger": "minecraft:player_generates_container_loot",
+      "trigger": "minecraft:location",
       "conditions": {
-        "loot_table": "snow_magicworld:rest_area_chest"
+        "player": {
+          "location": {
+            "structures": "snow_magicworld:rest_area"
+          }
+        }
       }
     }
   }

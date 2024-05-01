@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:lapis_lazuli"
+      "id": "minecraft:lapis_lazuli"
     },
     "title": {
       "translate": "魔法の苗"
@@ -17,7 +17,11 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{ItemName:\"SnowMagicOrb\"}"
+            "predicates": {
+              "minecraft:custom_data": {
+                "snow_magicworld:orb": {}
+              }
+            }
           }
         ]
       }

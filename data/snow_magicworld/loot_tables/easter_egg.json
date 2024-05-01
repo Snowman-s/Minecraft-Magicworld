@@ -9,8 +9,19 @@
           "name": "minecraft:diamond",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"卵の中の宝石\", \"italic\": false}'}, ItemName:\"EggDiamond\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "snow_magicworld:egg_diamond": {}
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "卵の中の宝石",
+                "italic": false
+              }
             }
           ]
         }

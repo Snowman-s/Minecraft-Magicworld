@@ -2,6 +2,14 @@
   "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
-    "nbt": "{SelectedItem:{tag:{ItemName:\"SnowMagicRod\"}}}"
+    "slots": {
+      "weapon.mainhand": {
+        "predicates": {
+          "minecraft:custom_data": {
+            "snow_magicworld:magic_rod": {}
+          }
+        }
+      }
+    }
   }
 }

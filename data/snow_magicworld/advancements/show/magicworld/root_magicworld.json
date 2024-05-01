@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:warped_nylium"
+      "id": "minecraft:warped_nylium"
     },
     "title": {
       "translate": "魔法世界の根"

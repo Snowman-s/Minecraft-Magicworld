@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:blaze_rod"
+      "id": "minecraft:blaze_rod"
     },
     "title": {
       "translate": "品揃え豊富"
@@ -18,28 +18,76 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{ItemName:\"SnowMagicRod\", SnowMagicRod:{MainSlotId:\"hit_fire\"}}"
+            "predicates": {
+              "minecraft:custom_data": {
+                "snow_magicworld:magic_rod": {
+                  "main_slot_id": "hit_fire"
+                }
+              }
+            }
           },
           {
-            "nbt": "{ItemName:\"SnowMagicRod\", SnowMagicRod:{MainSlotId:\"hit_explosion\"}}"
+            "predicates": {
+              "minecraft:custom_data": {
+                "snow_magicworld:magic_rod": {
+                  "main_slot_id": "hit_explosion"
+                }
+              }
+            }
           },
           {
-            "nbt": "{ItemName:\"SnowMagicRod\", SnowMagicRod:{MainSlotId:\"hit_pig\"}}"
+            "predicates": {
+              "minecraft:custom_data": {
+                "snow_magicworld:magic_rod": {
+                  "main_slot_id": "hit_pig"
+                }
+              }
+            }
           },
           {
-            "nbt": "{ItemName:\"SnowMagicRod\", SnowMagicRod:{MainSlotId:\"hit_heal\"}}"
+            "predicates": {
+              "minecraft:custom_data": {
+                "snow_magicworld:magic_rod": {
+                  "main_slot_id": "hit_heal"
+                }
+              }
+            }
           },
           {
-            "nbt": "{ItemName:\"SnowMagicRod\", SnowMagicRod:{MainSlotId:\"hit_water\"}}"
+            "predicates": {
+              "minecraft:custom_data": {
+                "snow_magicworld:magic_rod": {
+                  "main_slot_id": "hit_water"
+                }
+              }
+            }
           },
           {
-            "nbt": "{ItemName:\"SnowMagicRod\", SnowMagicRod:{MainSlotId:\"hit_lava\"}}"
+            "predicates": {
+              "minecraft:custom_data": {
+                "snow_magicworld:magic_rod": {
+                  "main_slot_id": "hit_lava"
+                }
+              }
+            }
           },
           {
-            "nbt": "{ItemName:\"SnowMagicRod\", SnowMagicRod:{MainSlotId:\"worldwalker\"}}"
+            "predicates": {
+              "minecraft:custom_data": {
+                "snow_magicworld:magic_rod": {
+                  "main_slot_id": "worldwalker"
+                }
+              }
+            }
           },
           {
-            "nbt": "{ItemName:\"SnowMagicRod\", SnowMagicRod:{MainSlotId:\"hit_thunder\"}}"
+            "predicates": {
+              "minecraft:custom_data": {
+                "snow_magicworld:magic_rod": {
+                  "main_slot_id": "hit_thunder"
+                }
+              }
+            }
           }
         ]
       }

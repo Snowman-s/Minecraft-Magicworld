@@ -7,72 +7,150 @@
         {
           "type": "item",
           "name": "minecraft:lapis_lazuli",
-          "weight": 100,
-          "quality": 0,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"translate\":\" コスト減少(0にはならない)\",\"color\":\"gray\",\"italic\": false}']},ItemName:\"SnowMagicOrbSub\", SubEffect:\"コスト減少(0にはならない)\", SubEffectId:\"decrease_cost\"}"
+              "function": "set_custom_data",
+              "tag": {
+                "snow_magicworld:orb_sub": {
+                  "id": "decrease_cost"
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": " コスト減少(0にはならない)",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
             }
           ]
         },
         {
           "type": "item",
           "name": "minecraft:lapis_lazuli",
-          "weight": 100,
-          "quality": 0,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"translate\":\" マナ速度加速\",\"color\":\"gray\",\"italic\": false}']},ItemName:\"SnowMagicOrbSub\", SubEffect:\"マナ速度加速\", SubEffectId:\"accel_mana\"}"
+              "function": "set_custom_data",
+              "tag": {
+                "snow_magicworld:orb_sub": {
+                  "id": "accel_mana"
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": " マナ速度加速",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
             }
           ]
         },
         {
           "type": "item",
           "name": "minecraft:lapis_lazuli",
-          "weight": 100,
-          "quality": 0,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"translate\":\" 地面着弾時効果発動化\",\"color\":\"gray\",\"italic\": false}']},ItemName:\"SnowMagicOrbSub\", SubEffect:\"地面着弾時効果発動化\", SubEffectId:\"active_onground\"}"
+              "function": "set_custom_data",
+              "tag": {
+                "snow_magicworld:orb_sub": {
+                  "id": "active_onground"
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": " 地面着弾時効果発動",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
             }
           ]
         },
         {
           "type": "item",
           "name": "minecraft:lapis_lazuli",
-          "weight": 100,
-          "quality": 0,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"translate\":\" 低速落下\",\"color\":\"gray\",\"italic\": false}']},ItemName:\"SnowMagicOrbSub\", SubEffect:\"低速落下\", SubEffectId:\"slow_falling\"}"
+              "function": "set_custom_data",
+              "tag": {
+                "snow_magicworld:orb_sub": {
+                  "id": "slow_falling"
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": " 低速落下",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
             }
           ]
         },
         {
           "type": "item",
           "name": "minecraft:lapis_lazuli",
-          "weight": 100,
-          "quality": 0,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"translate\":\" 攻撃でパリィ\",\"color\":\"gray\",\"italic\": false}']},ItemName:\"SnowMagicOrbSub\", SubEffect:\"攻撃でパリィ\", SubEffectId:\"attack_parry\"}"
+              "function": "set_custom_data",
+              "tag": {
+                "snow_magicworld:orb_sub": {
+                  "id": "attack_parry"
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": " 攻撃でパリィ",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
             }
           ]
         },
         {
           "type": "item",
           "name": "minecraft:lapis_lazuli",
-          "weight": 100,
-          "quality": 0,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{display:{Lore:['{\"translate\":\" 暗雲\",\"color\":\"gray\",\"italic\": false}']},ItemName:\"SnowMagicOrbSub\", SubEffect:\"暗雲\", SubEffectId:\"wither\"}"
+              "function": "set_custom_data",
+              "tag": {
+                "snow_magicworld:orb_sub": {
+                  "id": "wither"
+                }
+              }
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": " 暗雲",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
             }
           ]
         }
