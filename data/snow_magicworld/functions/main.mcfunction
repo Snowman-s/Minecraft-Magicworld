@@ -6,7 +6,6 @@ execute as @a[predicate=snow_magicworld:has_rod] unless score @s BSelectItemSlot
 execute as @a[predicate=snow_magicworld:sneak,predicate=snow_magicworld:has_rod,predicate=snow_magicworld:has_orb_offhand,tag=!OrbConnect] run function snow_magicworld:rodutility/orb_connect
 
 #魔法世界への召喚酔い
-execute as @a[tag=SummoningDrunk] at @s run fill ~-1 ~-1 ~-1 ~1 ~-1 ~1 glass
 execute as @a[tag=SummoningDrunk] at @s run tag @s remove SummoningDrunk
 
 tag @a[predicate=!snow_magicworld:sneak] remove OrbConnect

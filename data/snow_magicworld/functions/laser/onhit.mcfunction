@@ -3,8 +3,7 @@ execute if entity @s[tag=hit_fire] run setblock ~ ~ ~ fire
 execute if entity @s[tag=hit_explosion] run summon tnt ~ ~ ~ {fuse:0}
 execute if entity @s[tag=hit_explosion] if entity @e[sort=nearest,limit=1,type=chicken] run give @p[advancements={snow_magicworld:show/easter_egg=false},distance=..20] egg[custom_name='{"translate":"卵？", "italic": false}']
 
-execute if entity @s[tag=hit_pig] run function snowman_common:get_random
-execute if entity @s[tag=hit_pig] run scoreboard players operation @s Random /= #5 Constants
+execute if entity @s[tag=hit_pig] store result score @s Random run random roll 1..20
 execute if entity @s[tag=hit_pig] if score @e[tag=!snow_laser,sort=nearest,limit=1,type=!pig,scores={Health=1..}] Health <= @s Random run summon pig ~ ~ ~
 execute if entity @s[tag=hit_pig] if score @e[tag=!snow_laser,sort=nearest,limit=1,type=!pig,scores={Health=1..}] Health <= @s Random run kill @e[dx=0,dy=0,dz=0,tag=!snow_laser,limit=1,sort=nearest,type=!pig,scores={Health=1..}]
 

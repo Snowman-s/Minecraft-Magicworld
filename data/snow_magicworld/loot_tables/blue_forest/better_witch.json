@@ -22,6 +22,11 @@
               "function": "set_lore",
               "mode": "replace_all",
               "lore": [
+                {
+                  "translate": "メインスロット装着時：",
+                  "color": "yellow",
+                  "italic": false
+                },
                 [
                   {
                     "translate": " Cost:",
@@ -33,11 +38,6 @@
                     "color": "yellow"
                   }
                 ],
-                {
-                  "translate": "メインスロット装着時：",
-                  "color": "yellow",
-                  "italic": false
-                },
                 {
                   "translate": " 雷鳴",
                   "color": "gray",

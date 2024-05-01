@@ -4,13 +4,13 @@
       "processor_type": "minecraft:rule",
       "rules": [
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:chest",
             "probability": 0.3
-          },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
           },
           "output_state": {
             "Name": "minecraft:water_cauldron",
@@ -20,13 +20,13 @@
           }
         },
         {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:chest",
             "probability": 0.6
-          },
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
           },
           "output_state": {
             "Name": "minecraft:air"

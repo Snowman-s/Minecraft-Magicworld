@@ -1,5 +1,5 @@
 {
-  "type": "generic",
+  "type": "minecraft:generic",
   "pools": [
     {
       "rolls": {
@@ -8,13 +8,13 @@
       },
       "entries": [
         {
-          "type": "item",
+          "type": "minecraft:item",
           "name": "minecraft:lapis_lazuli",
           "weight": 100,
           "quality": 0,
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": {
                 "min": 4,
                 "max": 6
@@ -23,14 +23,36 @@
           ]
         },
         {
-          "type": "item",
+          "type": "minecraft:item",
           "name": "minecraft:carrot_on_a_stick",
           "weight": 70,
           "quality": 0,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"魔法の杖(未定)\",\"italic\": false,\"color\": \"yellow\"}'},Unbreakable:true,ItemName:\"SnowMagicRod\",SnowMagicRod:{Level:1,SlotNum:1,MainSlot:\"\",MainSlotId:\"\",Cost:0, FixedCost:0}}"
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "魔法の杖(未定)",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "snow_magicworld:magic_rod": {
+                    "level": 1,
+                    "slot_num": 1,
+                    "main_slot": "",
+                    "main_slot_id": "",
+                    "cost": 0,
+                    "fixed_cost": 0
+                  }
+                },
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                }
+              }
             }
           ]
         }
@@ -41,7 +63,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:entities/witch"
+          "value": "minecraft:entities/witch"
         }
       ]
     }
