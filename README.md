@@ -2,7 +2,7 @@
 Minecraftに魔法要素を追加するdetapack
 
 # 要件
-Minecraft1.20.2以上
+Minecraft1.21以上
 
 # 入れ方
 ワールド作成時に入れておくとよいです。
